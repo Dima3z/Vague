@@ -1,0 +1,24 @@
+#include <iostream>
+#include <windows.h>
+
+#include "console.h"
+
+int main()
+{
+	
+	FontColor clr = { RED, CYAN };
+	clprintf(clr, "This text is RED on CYAN and supprots %s\n", "formattiing!");
+
+	clprintf({ RED, BLACK }, "h");
+	clprintf({ DARK_YELLOW, BLACK }, "o");
+	clprintf({ YELLOW, BLACK }, "l");
+	clprintf({ GREEN, BLACK }, "y ");
+	clprintf({ CYAN, BLACK }, "s");
+	clprintf({ BLUE, BLACK }, "h");
+	clprintf({ MAGENTA, BLACK }, "i");
+	clprintf({ WHITE, BLACK }, "t");
+	clprintf({ GRAY, BLACK }, "!\n");
+
+	return 0;
+}
+
