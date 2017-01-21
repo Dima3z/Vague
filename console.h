@@ -1,5 +1,8 @@
 #pragma once
 
+#define WIDTH 150
+#define HEIGHT 60
+
 typedef enum {
 	BLACK,
 	DARK_BLUE,
